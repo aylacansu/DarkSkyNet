@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25221" started-at="2020-08-10T01:52:03 CDT" finished-at="2020-08-10T01:52:28 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25221" started-at="2020-08-10T01:52:03 CDT" finished-at="2020-08-10T01:52:28 CDT">
+      <class name="com.qa.darkskynet.tests.MainPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.darkskynet.tests.MainPageTest@12e61fe6]" name="setUp" is-config="true" duration-ms="12040" started-at="2020-08-10T01:52:03 CDT" finished-at="2020-08-10T01:52:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllTemp()[pri:1, instance:com.qa.darkskynet.tests.MainPageTest@12e61fe6]" name="getAllTemp" duration-ms="1752" started-at="2020-08-10T01:52:15 CDT" description=" All temperatures is displayed " finished-at="2020-08-10T01:52:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllTemp -->
+        <test-method status="PASS" signature="verifyCheckHighestTemp()[pri:2, instance:com.qa.darkskynet.tests.MainPageTest@12e61fe6]" name="verifyCheckHighestTemp" duration-ms="5613" started-at="2020-08-10T01:52:16 CDT" description="Verify that, highest temperature is displayed correctly" finished-at="2020-08-10T01:52:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckHighestTemp -->
+        <test-method status="PASS" signature="verifyCheckLowestTemp()[pri:3, instance:com.qa.darkskynet.tests.MainPageTest@12e61fe6]" name="verifyCheckLowestTemp" duration-ms="5599" started-at="2020-08-10T01:52:22 CDT" description="Verify that, lowest temperature is displayed correctly" finished-at="2020-08-10T01:52:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckLowestTemp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.darkskynet.tests.MainPageTest@12e61fe6]" name="tearDown" is-config="true" duration-ms="110" started-at="2020-08-10T01:52:28 CDT" finished-at="2020-08-10T01:52:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.darkskynet.tests.MainPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
